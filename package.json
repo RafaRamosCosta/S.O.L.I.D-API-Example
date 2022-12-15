@@ -5,6 +5,9 @@
   "repository": "https://github.com/RafaRamosCosta/S.O.L.I.D-API-Example.git",
   "author": "= <=>",
   "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
   "dependencies": {
     "express": "^4.18.2"
   },
